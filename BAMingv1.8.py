@@ -251,7 +251,7 @@ class MainPage(tk.Frame):
                                     "\n\n IMPORTANT"
                                     "\n Program will generate an error if there are spaces in directories names."
                                     " For example: './User Directory' will generate an error, but './User_Directory' or './UserDirectory' is acceptable.",
-                         wraplength="500", justify="center", font=controller.picking_text, bg="#3d6fdb", fg="white")
+                         wraplength="650", justify="center", font=controller.picking_text, bg="#3d6fdb", fg="white")
         #Setting for the lable which is contained in the fr_2 frame. This one contains the version of the tool:
         label2_info.pack(side=TOP, padx=5, pady=5)
         label_extra = tk.Label(frame2, text="\n BAMing Tool version " + app_version,
