@@ -117,7 +117,7 @@ class ProcessingTool(tk.Tk):
         self.frame_borderwidth = 2          #Determines how raised should the widgets be 
        
         # This creates the title at the top of the window
-        self.winfo_toplevel().title("BAMing" + app_version)
+        self.winfo_toplevel().title("CAPPS " + app_version)
 
         # set fonts
         self.title_font = tkfont.Font(family='Arial', size=20, weight="bold")    #Font for the main title, make the weight normal
@@ -232,7 +232,7 @@ class MainPage(tk.Frame):
         #info for the main TOP WIDGET which contains the name of the tool in mainpage 
         frame1 = tk.Frame(frame, relief=controller.frame_relief, borderwidth=controller.frame_borderwidth, bg="#000000")
         frame1.pack(fill=X, padx=5, pady=5, anchor=N, expand=TRUE)
-        label1_info = tk.Label(frame1, text="ChIP-seq or ATAC-seq BAM File Filtering & Peak Calling Tool",
+        label1_info = tk.Label(frame1, text="ChIP-seq and ATAC-seq Filtering & Peak calling Software (CAPPS)",
                          wraplength="800", justify="left", font=controller.title_font, bg="#000000", fg="white")
         label1_info.pack(padx=5, pady=5)
 
@@ -241,7 +241,7 @@ class MainPage(tk.Frame):
         frame2.pack(fill=X, side=TOP, padx=5, pady=5, anchor=NW, expand=True)
         label2_info = tk.Label(frame2, text=
                                     "INTRODUCTION"
-                                    "\n BAMing tool is designed for processing and peak calling for ATAC-seq and ChIP-seq BAM files."
+                                    "\n CAPPS tool is designed for processing and peak calling for ATAC-seq and ChIP-seq BAM files."
                                     " This tool takes 'BAM' files as input and relies on MACS2, Bamtools, Samtools and Picards for processing."
                                     " Please ensure these packages are installed on your computer."
                                     " Data visualization is available separately in R."
