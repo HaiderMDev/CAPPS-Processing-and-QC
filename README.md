@@ -104,7 +104,7 @@ The `.BigWig` or `.bw` file is necessary for visualizing normalized peaks in **_
 &nbsp;
 &ensp;
 
-### *Installation of Necessary Bioinformatics Packages*
+### **Installation of Necessary Bioinformatics Packages**
 
 
 
