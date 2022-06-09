@@ -13,7 +13,7 @@ CAPPS will attempts to install the necessary python packages on first launch. At
 
 ## Table of Contents
 1. [Genome Alignment](#genome-alignment)
-2. [Requirement for Bioinformatic packages](#requirement-for-bioinformatic-packages)
+2. [Bioinformatics Packages](#bioinformatics-packages)
 
 &nbsp;
 
@@ -62,14 +62,44 @@ CAPPS currently does not offer `fastq` file alignment for SAM file generation or
 &nbsp;
 &ensp;
 
-### **Requirement for Bioinformatic packages**
+### **Bioinformatics Packages**
 ------------------------------------------
-CAPPS automatically integrates shell and Java scripting into the python code, so the user does not have to be familiar either of the programming languages. The following packages need to be installed for CAPPS to work:
+CAPPS automatically integrates shell and Java scripting into the python code, so the user does not have to be familiar either of the programming languages. However, the following packages need to be installed for CAPPS to work:
 
-1. for BAM file filtering
+&nbsp;
+
+- For BAM file filtering, the following packages are required:
 ```
 Samtools 
-Bamtools 
-Bedtools 
+Bamtools
+picards (Java) 
+ 
+```
+**_Picards is written in Java, so ensure you have java, as well as JDK tool set installed on your computer_**
+
+&nbsp;
+
+- For peak calling and the conversion of `.bedgraph` or `.bdg` file to `bed` file:
+```
+MACS2
+Bedtools
+ 
+```
+  - `bed` files are required for differential peak analysis using **CAAT**, which is a peak analysis tool based in **_Shiny Dashboard_**
+
+&nbsp;
+
+- For `.bedgraph` or `.bdg` file to `.BigWig` or `.bw`  file conversion:
+```
+bioawk
+bedClip
+bedgraphtobigwig
+bedtools 
 
 ```
+   - The `.BigWig` or `.bw` file is necessary for visualizing normalized peaks in **_IGV_** or **_pygenometracks_** for generating peak summit tracks for publication quality figures. 
+   
+
+
+
+
