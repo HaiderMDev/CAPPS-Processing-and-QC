@@ -1,4 +1,10 @@
 ## **ChIP-seq and ATAC-seq Processing and Peak calling Software (CAPPS)**
+-----------------------------
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 ### Table of Contents
 
