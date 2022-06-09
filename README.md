@@ -30,6 +30,7 @@ CAPPS currently does not offer `fastq` file alignment for SAM file generation or
 > sudo apt-get install samtools
 
 2. Mouse genome preparation:
+&nbsp;
   1. Open terminal and make directory
   
   > mkdir genome_dir/
@@ -41,6 +42,8 @@ CAPPS currently does not offer `fastq` file alignment for SAM file generation or
   3. Index mouse genome 
   
   > bowtie2-build mm39.fa mm39bowtie
+
+&nbsp;
 
 3. Align the fastq file with the appropriate genome:
 
