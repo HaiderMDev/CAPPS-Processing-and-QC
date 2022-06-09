@@ -11,7 +11,14 @@ turtle
 ```
 CAPPS will attempts to install the necessary python packages on first launch. At first, it will check for `pip ` installation. If **pip** is installed, then it will attempt installation of the above mentioned programs, if they are not imported. 
 
+## Table of Contents
+1. [Genome Alignment](#genome-alignment)
+2. [Requirement for Bioinformatic packages](#requirement-for-bioinformatic-packages)
+
 &nbsp;
+
+### **Genome Alignment
+----------------------------
 
 CAPPS currently does not offer `fastq` file alignment for SAM file generation or SAM to BAM file conversion. Use the code below for alignment of fastq files, constituting raw sequence data, with mouse or human genome and SAM to BAM conversion:
 
@@ -49,7 +56,8 @@ CAPPS currently does not offer `fastq` file alignment for SAM file generation or
 &nbsp;
 &ensp;
 
-### Requirement for Bioinformatic packages 
+### Requirement for Bioinformatic packages
+------------------------------------------
 CAPPS automatically integrates shell and Java scripting into the python code, so the user does not have to be familiar either of the programming languages. The following packages need to be installed for CAPPS to work:
 
 1. for BAM file filtering
