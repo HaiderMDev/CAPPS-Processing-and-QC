@@ -30,7 +30,10 @@ CAPPS currently does not offer `fastq` file alignment for SAM file generation or
 > sudo apt-get install samtools
 
 2. Mouse genome preparation:
+
 &nbsp;
+&nbsp;
+
    - Open terminal and make directory
   
   > mkdir genome_dir/
