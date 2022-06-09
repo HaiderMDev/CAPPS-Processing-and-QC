@@ -1,0 +1,44 @@
+#Import necessary modules and laod global vaiables python file
+
+import os
+import subprocess
+import sys
+import globalvariables as global_vars
+
+#initialize golabl variabbles and load list of packages
+global_vars.init_vars().__init__           
+
+#----Check to install if pip is installed. If not install and upgrade it---#
+try:
+    os.system("pip --version ") 
+except ImportError:
+    os.system(" python -m pip install --upgrade pip ") 
+except RuntimeError or IOError or ValueError:
+    print("Could not install pip. Please consult our GitHub page for instructions")
+
+#Import the rest of the modules. If theyre not installed, install them. 
+try:
+    import _thread
+    import tkinter as tk
+    import customtkinter as ctk
+    from tkinter import font as tkfont
+    from tkinter import *
+    from tkinter import filedialog
+    from tkinter import messagebox
+    from tkinter.ttk import Button, Progressbar, Style
+    import subprocess
+    from turtle import bgcolor, end_fill, write
+    import pandas as pd
+    from datetime import datetime
+    import argparse
+except ImportError:
+    package_list = global_vars.pip_packages 
+    for package in package_list:
+        separator=''
+        read = separator.join(package)
+
+        cmd = "pip install %s | pip install %s --upgrade" % (read,read)
+        cmd_output = subprocess.call(cmd,shell=True)
+
+except RuntimeError or IOError or ValueError:
+    print("Could not find %s package. Tried to install, but failed. Make sure that pip is installed! Please consult our GitHub page for instructions" % package) 
