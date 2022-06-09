@@ -1,5 +1,20 @@
 ## **ChIP-seq and ATAC-seq Processing and Peak calling Software (CAPPS)**
 
+### Table of Contents
+
+1. [Introduction](#introduction)
+2. [Genome Alignment](#genome-alignment)
+3. [Bioinformatics Packages](#bioinformatics-packages)
+4. [Installation of Necessary Bioinformatics Packages](#installation-of-necessary-bioinformatics-packages)
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+### **Introduction**
 Python based software for the processing and peak calling of ATAC-seq and ChIP-seq Datasets. The program relies on the following key python modules:
 ```
 tkinter
@@ -11,11 +26,6 @@ turtle
 ```
 CAPPS will attempts to install the necessary python packages on first launch. At first, it will check for `pip ` installation. If **pip** is installed, then it will attempt installation of the above mentioned programs, if they are not imported. 
 
-## Table of Contents
------------------------------------------------
-1. [Genome Alignment](#genome-alignment)
-2. [Bioinformatics Packages](#bioinformatics-packages)
-3. [Installation of Necessary Bioinformatics Packages](#installation-of-necessary-bioinformatics-packages)
 
 &nbsp;
 
