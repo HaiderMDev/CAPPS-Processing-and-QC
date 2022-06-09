@@ -31,15 +31,15 @@ CAPPS currently does not offer `fastq` file alignment for SAM file generation or
 
 2. Mouse genome preparation:
 &nbsp;
-  1. Open terminal and make directory
+   - Open terminal and make directory
   
   > mkdir genome_dir/
   
-  2. Download genome. Provided is a code for downloading mouse genome:
+   - Download genome. Provided is a code for downloading mouse genome:
   
   > wget https://hgdownload.soe.ucsc.edu/goldenPath/mm39/bigZips/mm39.fa.gz
   
-  3. Index mouse genome 
+   - Index mouse genome 
   
   > bowtie2-build mm39.fa mm39bowtie
 
