@@ -122,12 +122,62 @@ The `.BigWig` or `.bw` file is necessary for visualizing normalized peaks in **_
 
 ### **Installation of Necessary Bioinformatics Packages**
 
+The installation of the above mentioned programs require basic knowledge of the command line. The terminal in MAC OSX can be launched by doing a **_spotlight search_** and typing **TERMINAL**. Click on the terminal icon to launch terminal. For reference, I have included an image of the terminal in a mac
+
+![Terminal in Mac OS](./Images/Terminal_Mac.png)
+
+&nbsp;
+
+### **install Conda packages 
+1. Install Anaconda by following instructions on the [Anaconda website](https://www.anaconda.com/products/distribution).
+2. Install samtools, bamtools, bedtools, bedClip and bedgraphtobigwig using conda as follows:
+*samtools:
+> conda install -c bioconda samtools 
+*bamtools:
+> conda install -c bioconda bamtools 
+*bedtools:
+> conda install -c bioconda bedtools 
+*bedClip:
+> conda install -c bioconda/label/cf201901 ucsc-bedclip 
+*bedgraphtobigwig
+> conda install -c bioconda/label/cf201901 ucsc-bedgraphtobigwig 
+
+&nbsp;
+
+### **Install picards:
+1. Install java by following instructions on the [Java website](https://www.java.com/en/).
+2. Install JDK tools by following instructions on the [Oracle website](https://www.oracle.com/java/technologies/downloads/)
+3. Download the latest release of **_picards.jar_** from the [GitHub page](https://github.com/broadinstitute/picard/releases/tag/2.27.3)
+4. Now you can select **_picards.jar_** when prompted in the CAPPS software.  
+
+&nbsp;
+
+### ** Install bioawk:
+1. Bioawk is installed using terminal. Type the following commands in terminal:
+   - Download bioawk:
+   
+> sudo apt-get install libz-dev
+> sudo apt-get install bison
+> git clone https://github.com/lh3/bioawk
+
+   - This will update the libraries for **libz-dev** and **bison** and download bioawk in your working directory
+   - Manouver to the directory containing bioawk using the following commands:
+   
+> cd ./Path/to/bioawk
+
+2. Use the command **make** to install bioawk:
+
+> sudo make
+
+This will install the unix executable **make** file you need to select when prompted in the CAPPS software. 
+
+
+&nbsp;
+&ensp;
 &nbsp;
 &ensp;
 
-The installation of the above mentioned programs require basic knowledge of the command line. For reference, I have included an image of the terminal in a mac
 
-![Terminal in Mac OS](./Images/Terminal_Mac.png)
 
 
 
