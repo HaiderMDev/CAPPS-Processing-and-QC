@@ -181,8 +181,9 @@ The installation of the above mentioned programs require basic knowledge of the 
 
 > sudo make
 
-This will install the unix executable **bioawk** file you need to select when prompted in the CAPPS software. 
+This will install the unix executable **bioawk** file you need to select when prompted in the CAPPS software. The file should look like this in your directory:
 
+![Bioawk executable file](./Images/Bioawk_executable.png)
 
 &nbsp;
 &ensp;
