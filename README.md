@@ -128,7 +128,7 @@ The installation of the above mentioned programs require basic knowledge of the 
 
 &nbsp;
 
-### **install Conda packages 
+### install Conda packages 
 1. Install Anaconda by following instructions on the [Anaconda website](https://www.anaconda.com/products/distribution).
 2. Install samtools, bamtools, bedtools, bedClip and bedgraphtobigwig using conda as follows:
 *samtools:
@@ -144,7 +144,7 @@ The installation of the above mentioned programs require basic knowledge of the 
 
 &nbsp;
 
-### **Install picards:
+### Install picards:
 1. Install java by following instructions on the [Java website](https://www.java.com/en/).
 2. Install JDK tools by following instructions on the [Oracle website](https://www.oracle.com/java/technologies/downloads/)
 3. Download the latest release of **_picards.jar_** from the [GitHub page](https://github.com/broadinstitute/picard/releases/tag/2.27.3)
@@ -152,7 +152,7 @@ The installation of the above mentioned programs require basic knowledge of the 
 
 &nbsp;
 
-### ** Install bioawk:
+#### Install bioawk:
 1. Bioawk is installed using terminal. Type the following commands in terminal:
    - Download bioawk:
    
