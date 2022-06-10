@@ -166,7 +166,9 @@ The installation of the above mentioned programs require basic knowledge of the 
    - Download bioawk:
    
 > sudo apt-get install libz-dev
+*
 > sudo apt-get install bison
+*
 > git clone https://github.com/lh3/bioawk
 
    - This will update the libraries for **libz-dev** and **bison** and download bioawk in your working directory
