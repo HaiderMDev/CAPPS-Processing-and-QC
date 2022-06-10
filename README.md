@@ -195,7 +195,7 @@ This will install the unix executable **bioawk** file you need to select when pr
 
 &nbsp;
 
-#### Install pip packages:
+### Install pip packages:
 
 1. Install pip:
 
@@ -208,6 +208,7 @@ This will install the unix executable **bioawk** file you need to select when pr
 &nbsp;
 
 After the installation of these packages, you are now ready to use CAPPS
+
 ------------------------------------
 &nbsp;
 &ensp;
