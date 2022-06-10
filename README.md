@@ -30,7 +30,9 @@ argparse
 subprocess
 turtle
 ```
+
 CAPPS will attempts to install the necessary python packages on first launch. At first, it will check for `pip ` installation. If **pip** is installed, then it will attempt installation of the above mentioned programs, if they are not imported. 
+
 ------------------------------------
 
 &nbsp;
