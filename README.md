@@ -131,6 +131,7 @@ The installation of the above mentioned programs require basic knowledge of the 
 ### Install Conda packages 
 1. Install Anaconda by following instructions on the [Anaconda website](https://www.anaconda.com/products/distribution).
 2. Install samtools, bamtools, bedtools, bedClip and bedgraphtobigwig using conda as follows:
+
    - samtools:
    
 > conda install -c bioconda samtools 
@@ -166,9 +167,9 @@ The installation of the above mentioned programs require basic knowledge of the 
    - Download bioawk:
    
 > sudo apt-get install libz-dev
-*
+
 > sudo apt-get install bison
-*
+
 > git clone https://github.com/lh3/bioawk
 
    - This will update the libraries for **libz-dev** and **bison** and download bioawk in your working directory
