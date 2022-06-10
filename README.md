@@ -70,6 +70,8 @@ CAPPS currently does not offer `fastq` file alignment for SAM file generation or
 
 > bowtie2 --very-sensitive –dovetail --quiet --maxins 1000  --met-file ./file_metrics.txt -x ./path/to/genome/indexes -1 ./path/to/R1_reads -2 ./path/to/R2/reads  -S output.sam
 
+&nbsp;
+
 4. Convert the resulting `.SAM` file to `.BAM` file:
 
 >Samtools view -bS 58_DKO.sam > 58_DKO.bam
@@ -104,6 +106,7 @@ MACS2
 Bedtools
  
 ```
+
 `bed` files are required for differential peak analysis using **CAAT**, which is a peak analysis tool based in **_Shiny Dashboard_**
 
 &nbsp;
@@ -167,7 +170,7 @@ The installation of the above mentioned programs require basic knowledge of the 
 
 &nbsp;
 
-#### Install bioawk:
+### Install bioawk:
 1. Bioawk is installed using terminal. Type the following commands in terminal:
    - Download bioawk:
    
