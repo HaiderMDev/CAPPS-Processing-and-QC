@@ -177,11 +177,11 @@ The installation of the above mentioned programs require basic knowledge of the 
    
 > cd ./Path/to/bioawk
 
-2. Use the command **make** to install bioawk:
+2. Use the command **_make_** to install bioawk:
 
 > sudo make
 
-This will install the unix executable **make** file you need to select when prompted in the CAPPS software. 
+This will install the unix executable **bioawk** file you need to select when prompted in the CAPPS software. 
 
 
 &nbsp;
