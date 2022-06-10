@@ -12,7 +12,7 @@
 2. [Genome Alignment](#genome-alignment)
 3. [Bioinformatics Packages](#bioinformatics-packages)
 4. [Installation of Necessary Bioinformatics Packages](#installation-of-necessary-bioinformatics-packages)
-
+5. [Using CAPPS](#using-capps)
 
 &nbsp;
 &nbsp;
@@ -31,7 +31,7 @@ subprocess
 turtle
 ```
 CAPPS will attempts to install the necessary python packages on first launch. At first, it will check for `pip ` installation. If **pip** is installed, then it will attempt installation of the above mentioned programs, if they are not imported. 
-
+------------------------------------
 
 &nbsp;
 
@@ -72,6 +72,7 @@ CAPPS currently does not offer `fastq` file alignment for SAM file generation or
 
 >Samtools view -bS 58_DKO.sam > 58_DKO.bam
 
+------------------------------------
 
 &nbsp;
 &ensp;
@@ -114,7 +115,9 @@ bedtools
 
 ```
 The `.BigWig` or `.bw` file is necessary for visualizing normalized peaks in **_IGV_** or **_pygenometracks_** for generating peak summit tracks for publication quality figures. 
-   
+
+------------------------------------
+
 &nbsp;
 &ensp;
 &nbsp;
@@ -186,9 +189,28 @@ This will install the unix executable **bioawk** file you need to select when pr
 ![Bioawk executable file](./Images/Bioawk_executable.png)
 
 &nbsp;
+
+#### Install pip packages:
+
+1. Install pip:
+
+> python3 install pip --upgrade 
+
+2. Install macs2
+
+> pip install macs2
+
+&nbsp;
+
+After the installation of these packages, you are now ready to use CAPPS
+------------------------------------
+&nbsp;
 &ensp;
 &nbsp;
 &ensp;
+
+
+### **Using CAPPS**
 
 
 
