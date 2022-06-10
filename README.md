@@ -128,18 +128,27 @@ The installation of the above mentioned programs require basic knowledge of the 
 
 &nbsp;
 
-### install Conda packages 
+### Install Conda packages 
 1. Install Anaconda by following instructions on the [Anaconda website](https://www.anaconda.com/products/distribution).
 2. Install samtools, bamtools, bedtools, bedClip and bedgraphtobigwig using conda as follows:
-*samtools:
+   - samtools:
+   
 > conda install -c bioconda samtools 
-*bamtools:
+
+   - bamtools:
+   
 > conda install -c bioconda bamtools 
-*bedtools:
+
+   - bedtools:
+   
 > conda install -c bioconda bedtools 
-*bedClip:
+
+   - bedClip:
+   
 > conda install -c bioconda/label/cf201901 ucsc-bedclip 
-*bedgraphtobigwig
+
+   - bedgraphtobigwig
+  
 > conda install -c bioconda/label/cf201901 ucsc-bedgraphtobigwig 
 
 &nbsp;
