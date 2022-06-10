@@ -84,7 +84,7 @@ CAPPS automatically integrates shell and Java scripting into the python code, so
 
 &nbsp;
 
-- For BAM file filtering, the following packages are required:
+1. For BAM file filtering, the following packages are required:
 ```
 Samtools 
 Bamtools
@@ -95,7 +95,7 @@ picards (Java)
 
 &nbsp;
 
-- For peak calling and the conversion of `.bedgraph` or `.bdg` file to `bed` file:
+2. For peak calling and the conversion of `.bedgraph` or `.bdg` file to `bed` file:
 ```
 MACS2
 Bedtools
@@ -105,7 +105,7 @@ Bedtools
 
 &nbsp;
 
-- For `.bedgraph` or `.bdg` file to `.BigWig` or `.bw`  file conversion:
+3. For `.bedgraph` or `.bdg` file to `.BigWig` or `.bw`  file conversion:
 ```
 bioawk
 bedClip
@@ -121,6 +121,13 @@ The `.BigWig` or `.bw` file is necessary for visualizing normalized peaks in **_
 &ensp;
 
 ### **Installation of Necessary Bioinformatics Packages**
+
+&nbsp;
+&ensp;
+
+The installation of the above mentioned programs require basic knowledge of the command line. For reference, I have included an image of the terminal in a mac
+
+![Terminal in Mac OS](./Images/Terminal_Mac.png)
 
 
 
