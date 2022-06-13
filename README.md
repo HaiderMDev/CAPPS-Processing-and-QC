@@ -269,10 +269,53 @@ Once the `.bam` files have been added, they will be displayed in the text box as
 ![CAPPS BAM FILE ADD](./Images/CAPPS-BAM_FILE_ADD.png)
 
 
+&nbsp;
+
+Click the **_Summary Page_** button to go to the **Summary Page**. Click **_Print Summary_** to confirm the summary of experimental settings and `.bam` files that were selected. 
+
+![CAPPS Summary](./Images/CAPPS-Summary_Page.png)
+
+&nbsp;
+
+Once you have confirmed the experimental settings, click **_Next Page_** in order to continue to the filtering page. 
+
+&nbsp;
+
+### **BAM File Filtering and Peak Calling Page:**
+
+This page will print out a progress report as CAPPS filters the `.bam` file(s), calls peaks, converts `.bdg` file to `.bed` file, and generates the `.bw` from `.bdg` file. At the end, CAPPS will remove all unnecessary files. The called peaks will be saved in seperate folders within the experimental directory. 
+   - **NOTE**: Once CAPPS has been initiated, the **_Start_** and **_Previous_** buttons will be disabled until CAPPS is finished performing all of the processes.
+
+![CAPPS Summary](./Images/CAPPS-FILTERING.png)
+
+&nbsp;
 
 
+![CAPPS Summary](./Images/CAPPS-FILTERING2.png)
 
+&nbsp;
+
+
+![CAPPS Summary](./Images/CAPPS-FILTERING3.png)
+
+&nbsp;
 
  
+![CAPPS Summary](./Images/CAPPS-FILTERING4.png)
 
+&nbsp;
+
+
+
+![CAPPS Summary](./Images/CAPPS-FILTERING5.png)
+
+&nbsp;
+
+&nbsp;
+
+
+At the end, CAPPS will name the files by the number they were loaded. If you choose to reference the file number to your original name tags, please click on the **_Experiment Name Assigned_****_Exp_Settings.txt** file, and it will trace the file numbers to your original naming scheme. 
+
+
+![CAPPS Summary](./Images/CAPPS-FILTERING6.png)
 
