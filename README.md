@@ -15,7 +15,7 @@
 5. [Using CAPPS](#using-capps)
    - [Experimental Information](#experimental-information)
    - [BAM File Filtering and Peak Calling Page](#bam-file-filtering-and-peak-calling-page)
-   - [CAPPS Output](#caps-output)
+   - [CAPPS Output](#capps-output)
    
    
 &nbsp;
