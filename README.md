@@ -235,7 +235,7 @@ In order to proceed, click on the **_Experimental Information_** button. This wi
 &nbsp;
 
 
-### **Fill in the following inforamtion in order to proceed:**
+### **Fill in the following information in order to proceed:**
 
 1. **Define Experiment Name:** Name the experiment. This is the name for the **Experiment Settings** text tile that will be saved in the experimental folder 
 2. **Experimental Directory:** Click on the **_Browse_** button to select the directory where the output files will be saved. 
