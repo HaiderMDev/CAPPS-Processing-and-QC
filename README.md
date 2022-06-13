@@ -260,7 +260,7 @@ Click the **_Add Files_** button to add `.bam` files to CAPPS for filtering. You
     - **NOTE**: CAPPS will not let you proceed if no `.bam` file is selected. 
     - **NOTE**: CAPPS will generate an error if the same `.bam` file is selected more than once. 
     
-&nbsp
+&nbsp;
 
 Once the `.bam` files have been added, they will be displayed in the text box as follows:
 
