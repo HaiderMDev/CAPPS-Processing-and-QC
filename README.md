@@ -319,3 +319,11 @@ At the end, CAPPS will name the files by the number they were loaded. If you cho
 
 ![CAPPS Summary](./Images/CAPPS-FILTERING6.png)
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+### **CAPPS Output**
+
+
