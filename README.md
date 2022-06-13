@@ -314,7 +314,7 @@ This page will print out a progress report as CAPPS filters the `.bam` file(s), 
 &nbsp;
 
 
-At the end, CAPPS will name the files by the number they were loaded. If you choose to reference the file number to your original name tags, please click on the **_Experiment Name Assigned_****_Exp_Settings.txt** file, and it will trace the file numbers to your original naming scheme. 
+At the end, CAPPS will name the files by the number they were loaded. If you choose to reference the file number to your original name tags, please click on the **_Experiment Name Assigned_ _Exp_Settings.txt** file, and it will trace the file numbers to your original naming scheme. 
 
 
 ![CAPPS Summary](./Images/CAPPS-FILTERING6.png)
