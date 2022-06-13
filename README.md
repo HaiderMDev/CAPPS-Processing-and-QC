@@ -218,7 +218,24 @@ After the installation of these packages, you are now ready to use CAPPS
 
 ### **Using CAPPS**
 
-**Caps 
+Once the above packages are installed and you have BAM files ready for filtering, you can launch CAPPS from the docker container or via a python IDE, such as visual studio code. 
+
+&nbsp;
+
+The opening page for CAPPS gives simple directions on output, and requirements for running CAPPS. 
+
+![CAPPS opening page](./Images/CAPPS-Opening_page.png)
+
+&nbsp;
+
+In order to proceed, click on the "Experimental Information" button at the bottom right. This will allow the user to enter experimental information. 
+
+![CAPPS Experimetal information](./Images/CAPPS-Experimental_Information.png)
+
+
+
+
+
 
 
 
