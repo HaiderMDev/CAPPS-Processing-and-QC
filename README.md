@@ -21,7 +21,7 @@
 &nbsp;
 
 ### **Introduction**
-Python based software for the processing and peak calling of ATAC-seq and ChIP-seq Datasets. The program relies on the following key python modules:
+CAPPS is a Python based software for the processing and peak calling of **A**ssay for **T**ransposase **A**ccessible **C**hromatin (ATAC-seq) and **C**hromatin **I**mmunopreci**p**itation **seq**uencing (ChIP-seq) datasets. The program relies on the following key python modules:
 ```
 tkinter
 datetime
@@ -218,7 +218,7 @@ After the installation of these packages, you are now ready to use CAPPS
 
 ### **Using CAPPS**
 
-
+**Caps 
 
 
 
