@@ -251,11 +251,28 @@ In order to proceed, click on the **_Experimental Information_** button. This wi
 
 Once the experimental variables have been selected, click on the **_Next Page_** button to proceed. 
 
+&nbsp;
+&nbsp;
+
+![CAPPS BAM FILE LOADING](./Images/CAPPS-BAM_FILE_LOADING.png)
+
+Click the **_Add Files_** button to add `.bam` files to CAPPS for filtering. You can add as many `.bam` files as necessary. 
+    - **NOTE**: CAPPS will not let you proceed if no `.bam` file is selected. 
+    - **NOTE**: CAPPS will generate an error if the same `.bam` file is selected more than once. 
+    
+&nbsp
+
+Once the `.bam` files have been added, they will be displayed in the text box as follows:
+
+&nbsp;
+
+![CAPPS BAM FILE ADD](./Images/CAPPS-BAM_FILE_ADD.png)
 
 
 
 
 
 
+ 
 
 
